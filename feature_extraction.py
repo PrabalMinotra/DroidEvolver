@@ -59,7 +59,7 @@ def main():
 	global packages
 	packages = open('android_package.name','r').readlines()
 	packages = [package.strip() for package in packages] # packages correspond to family
-	print 'official package number:', len(packages)
+	print ('official package number:', len(packages))
 
 	names = ['--list of app names ----']
 	for app_name in names:
